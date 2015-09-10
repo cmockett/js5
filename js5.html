@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js5.css">
+		<title>Title!</title>
+	</head>
+	<body ng-controller="myController">
+		<h1 ng-click="click1()" ng-show="showH1">User Profile</h1>
+		<input ng-model="input1" ng-show="showInput1" ng-blur="blur1()"><br>
+		<h4 ng-click="click2()" ng-show="showH4">Blah Blah Blah</h4>
+		<input ng-model="input2" ng-show="showInput2" ng-blur="blur2()"><br>
+		<p ng-click="click3()" ng-show="showP1">Text!</p>
+		<input ng-model="input3" ng-show="showInput3" ng-blur="blur3()"><br>
+		<p ng-click="click4()" ng-show="showP2">Text!!</p>
+		<input ng-model="input4" ng-show="showInput4" ng-blur="blur4()"><br>
+		<script type="text/javascript" src="js5.js"></script>
+	</body>
+</html>
