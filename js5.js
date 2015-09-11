@@ -5,7 +5,11 @@ var textToInput = function ($scope){
 	$scope.showH4=true;
 	$scope.showP1=true;
 	$scope.showP2=true;
-	$scope.focus1=true;
+	$scope.text1 = "text1";
+	$scope.text2 = "text2";
+	$scope.text3 = "text3";
+	$scope.text4 = "text4";
+
 
 	$scope.click1 = function(){
 		$scope.showH1=false;

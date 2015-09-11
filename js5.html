@@ -6,14 +6,14 @@
 		<title>Title!</title>
 	</head>
 	<body ng-controller="myController">
-		<h1 ng-click="click1()" ng-show="showH1">User Profile</h1>
-		<input ng-model="input1" ng-show="showInput1" ng-blur="blur1()"><br>
-		<h4 ng-click="click2()" ng-show="showH4">Blah Blah Blah</h4>
-		<input ng-model="input2" ng-show="showInput2" ng-blur="blur2()"><br>
-		<p ng-click="click3()" ng-show="showP1">Text!</p>
-		<input ng-model="input3" ng-show="showInput3" ng-blur="blur3()"><br>
-		<p ng-click="click4()" ng-show="showP2">Text!!</p>
-		<input ng-model="input4" ng-show="showInput4" ng-blur="blur4()"><br>
+		<div class="div1" ng-show="showH1"><p ng-click="click1()">{{text1}}</p></div>
+		<div class="div1" ng-show="showInput1"><input ng-model="text1" ng-blur="blur1()"></div>
+		<div class="div2" ng-show="showH4"><p ng-click="click2()">{{text2}}</p></div>
+		<div class="div2" ng-show="showInput2"><input ng-model="text2" ng-blur="blur2()"></div>
+		<div class="div3" ng-show="showP1"><p ng-click="click3()">{{text3}}</p></div>
+		<div class="div3" ng-show="showInput3"><input ng-model="text3" ng-blur="blur3()"></div>
+		<div class="div4" ng-show="showP2"><p ng-click="click4()">{{text4}}</p></div>
+		<div class="div4" ng-show="showInput4"><input ng-model="text4" ng-blur="blur4()"></div>
 		<script type="text/javascript" src="js5.js"></script>
 	</body>
 </html>
